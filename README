@@ -2,4 +2,4 @@ This application handels the input of name and email and saves to a database
 =================================
 Based upon the template from the play framework website
 =================================
-entry point at http://localhost:9000/home
+entry point at http://localhost:9000
