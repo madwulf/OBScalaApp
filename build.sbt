@@ -11,3 +11,6 @@ libraryDependencies += ws
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 
 
+libraryDependencies ++= Seq(
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.11.14"
+)
