@@ -14,3 +14,5 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1
 libraryDependencies ++= Seq(
   "org.reactivemongo" %% "play2-reactivemongo" % "0.11.14"
 )
+
+libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1"
