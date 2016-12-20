@@ -1,7 +1,6 @@
-@(inputform:Form[User])(implicit messages: Messages)
 
-
-@import helper._
+<!DOCTYPE html>
+<html lang="en">
 <style>
 div.header {
     color: blue;
@@ -16,36 +15,15 @@ div.inputBox{
     text-align: center;
     margin: 0 0 5vh 0;
 }
-#Name_field{
-    width: 100vw;
-    margin: 0 0 1vh 45vw;
-}
-#Email_field{
-    width: 100vw;
-    margin: 0 0 1vh 45vw;
-}
-dd {
-    margin: 0 0 0 0;
-    }
-div.submitInput{
-    margin: 0 0 0 50vw;
-}
-
 </style>
 <head>
-
     <meta charset="UTF-8">
     <title>Title</title>
     <div class="header"><h1>Orange Bus Application</h1></div>
-
-    @form(action=routes.homePage.createUser()) {
-    @inputText(inputform("Name"))
-    @inputText(inputform("Email"))
-    <div class="submitInput">
-    <input type="submit" value="Submit">
-    </div>
-
-    }
+    <div class="inputBox">  Name:<br>
+        <input type="text" name="Name"><br></div>
+    <div class="inputBox">  Email Address:<br>
+        <input type="text" name="Email Address"><br></div>
 </head>
 <body>
 

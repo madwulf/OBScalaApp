@@ -10,10 +10,9 @@ GET     /count                      controllers.CountController.count
 GET     /message                    controllers.AsyncController.message
 
 # Home page/input page
+#GET     /home                       controllers.homePage.main
 
 GET     /home                      controllers.homePage.load
-
-GET     /home/register             controllers.homePage.createUser
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
